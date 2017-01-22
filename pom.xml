@@ -80,6 +80,9 @@
      -->
     <build>
 	    <plugins>
+	    <!-- MG插件，执行maven build在goal中输入mybatis-generator:generate后执行
+	    	 MG根据classpath下的 generatorConfig.xml生成相应实体以及操作类和XML
+	    -->
 	        <plugin>
 	            <groupId>org.springframework.boot</groupId>
 	            <artifactId>spring-boot-maven-plugin</artifactId>
